@@ -1,0 +1,20 @@
+[general]
+name=QGIS Server Map Loader
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+tracker=https://github.com/dx1983/qgis-server-map-loader
+homepage=https://github.com/dx1983/qgis-server-map-loader
+repository=https://github.com/dx1983/qgis-server-map-loader
+
+description=Loads project present in env QGIS_PROJECT_REPO.
+version=version 1.0
+author=Dong Xiang
+email=dongxiang1983@gmail.com
+; if True it's a server plugin
+server=True
+
+category=server
+
+experimental=True
+
+about=Map loader plugin to add project from directory or postgresql.
